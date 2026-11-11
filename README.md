@@ -33,7 +33,7 @@ Predictive-maintenance models support machine failure classification and Remaini
 - Failure prediction and RUL estimation.
 - Airflow workflow orchestration.
 - Trino SQL analytics and Superset dashboards.
-- Jenkins CI/CD on MasterControl.
+- Jenkins CI/CD Integration.
 - Makefile-based automation.
 - Prometheus metrics collection on MasterControl.
 - Grafana visualization on MasterControl.
