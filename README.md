@@ -1,15 +1,14 @@
-# Scalable Industrial IoT Data Engineering Pipeline for Predictive Maintenance
+# Industrial IoT Data Engineering Pipeline for Predictive Maintenance
 
 **Version:** 2.0.0\
 **Last Updated:** 07-01-2026\
 **Environment:** Five-Node Distributed Cluster\
-**Management Node:** MasterControl — Jenkins, Prometheus, Grafana, GNU Make
 
 ---
 
 ## Project Overview
 
-The Scalable Industrial IoT Data Engineering Pipeline for Predictive Maintenance is a distributed data engineering platform for simulating, ingesting, processing, storing, and analyzing industrial machine telemetry.
+The Industrial IoT Data Engineering Pipeline for Predictive Maintenance is a distributed data engineering platform for simulating, ingesting, processing, storing, and analyzing industrial machine telemetry.
 
 The project uses the [Industrial IoT Dataset (Synthetic)](https://www.kaggle.com/datasets/canozensoy/industrial-iot-dataset-synthetic?select=factory_sensor_simulator_2040.csv) from Kaggle, with `factory_sensor_simulator_2040.csv` as the selected source file.
 
