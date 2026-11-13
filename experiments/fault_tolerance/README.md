@@ -1,0 +1,1 @@
+Plan controlled Kafka broker and worker outages in a nonproduction environment. Record recovery time, message loss, replay behavior, and service availability. Never stop services without operator approval.

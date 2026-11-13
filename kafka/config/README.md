@@ -1,0 +1,1 @@
+Kafka KRaft quorum: MasterDB:9093 (controller 1), WorkerC1:9093 (controller/broker 2), WorkerC2:9093 (controller/broker 3); WorkerC3:9092 (broker 4). Existing cluster configuration is not overwritten.

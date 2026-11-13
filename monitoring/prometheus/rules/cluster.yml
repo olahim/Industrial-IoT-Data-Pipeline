@@ -1,0 +1,17 @@
+groups:
+  - name: industrial_iot_cluster
+    rules:
+      - alert: ClusterNodeDown
+        expr: up{job="node-exporter"} == 0
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Node exporter unavailable on {{ $labels.instance }}"
+      - alert: HighHostCPU
+        expr: 100 * (1 - avg by(instance) (rate(node_cpu_seconds_total{mode="idle"}[5m]))) > 90
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High CPU on {{ $labels.instance }}"

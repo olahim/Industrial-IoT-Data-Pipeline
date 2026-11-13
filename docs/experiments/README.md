@@ -1,0 +1,1 @@
+Evaluate scalability at 100, 500, 1,000, 5,000, 10,000 and 20,000+ events/sec after establishing baseline. Report actual achieved rates, throughput, latency, resource use, and failure/recovery results; targets are not measured results.

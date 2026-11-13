@@ -1,0 +1,1 @@
+Use train/test splits or time-based holdout on the full dataset. Report precision, recall, F1, ROC-AUC for failure classification and MAE/RMSE for RUL regression. The bundled five-row sample is not sufficient for scientific evaluation.

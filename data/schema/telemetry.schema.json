@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "required": [
+    "machine_id",
+    "event_time",
+    "temperature_c",
+    "vibration_mms"
+  ],
+  "properties": {
+    "machine_id": {
+      "type": "string"
+    },
+    "event_time": {
+      "type": "string"
+    },
+    "temperature_c": {
+      "type": "number"
+    },
+    "vibration_mms": {
+      "type": "number"
+    }
+  }
+}

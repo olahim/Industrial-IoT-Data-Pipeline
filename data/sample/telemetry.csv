@@ -1,0 +1,6 @@
+Machine_ID,Machine_Type,Temperature_C,Vibration_mms,Sound_dB,Oil_Level_pct,Coolant_Level_pct,Power_Consumption_kW,Operational_Hours,Failure_Within_7_Days,Remaining_Useful_Life_days
+M001,CNC,78.4,4.7,81.2,62.5,71.3,15.8,1200,0,150
+M002,Pump,92.1,8.2,95.4,21.0,30.0,21.0,6000,1,6
+M003,CNC,66.2,2.3,72.0,85.0,90.0,12.2,500,0,300
+M004,Lathe,88.0,6.5,89.0,40.0,45.0,18.0,3900,1,12
+M005,Pump,72.0,3.1,77.0,74.0,80.0,13.5,1500,0,180

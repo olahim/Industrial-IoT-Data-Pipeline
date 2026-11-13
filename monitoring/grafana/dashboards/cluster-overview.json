@@ -1,0 +1,29 @@
+{
+  "title": "Industrial IoT Cluster Overview",
+  "uid": "iot-cluster",
+  "schemaVersion": 39,
+  "version": 1,
+  "panels": [
+    {
+      "id": 1,
+      "title": "Node exporters up",
+      "type": "timeseries",
+      "gridPos": {
+        "x": 0,
+        "y": 0,
+        "w": 12,
+        "h": 8
+      },
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "targets": [
+        {
+          "expr": "up{job=\"node-exporter\"}",
+          "refId": "A"
+        }
+      ]
+    }
+  ]
+}

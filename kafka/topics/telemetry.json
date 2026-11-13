@@ -1,0 +1,6 @@
+{
+  "topic": "industrial-iot-telemetry",
+  "partitions": 3,
+  "replication_factor": 3,
+  "cleanup_policy": "delete"
+}

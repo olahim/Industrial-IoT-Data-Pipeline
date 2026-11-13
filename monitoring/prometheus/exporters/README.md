@@ -1,0 +1,1 @@
+Install Node Exporter on all five hosts (default port 9100). Additional Kafka JMX, Spark, Airflow and Jenkins exporters require separate installation and scrape jobs. Do not assume they are exposed by default.

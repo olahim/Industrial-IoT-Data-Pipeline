@@ -1,0 +1,1 @@
+Jenkins on MasterControl checks out code, calls Makefile targets, runs tests, obtains deployment approval, and uses SSH/rsync to update MasterDB and worker nodes. Production changes require explicit confirmation.

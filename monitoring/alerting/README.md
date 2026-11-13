@@ -1,0 +1,1 @@
+Prometheus alert rules are provided under monitoring/prometheus/rules. Configure Grafana Alerting contact points or Alertmanager for actual notifications. No credentials or recipient addresses are included.

@@ -1,0 +1,1 @@
+Connect Superset to the Trino Iceberg catalog, then create a machine health dashboard from `iceberg.gold.machine_features`. Export dashboard JSON only after creating it in the running Superset instance.
